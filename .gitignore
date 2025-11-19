@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# envs
+venv/
+.env
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large data
+dataset/
+*.csv
+!sample_preprocessed_input.csv
+
+# joblib: ignore all then whitelist your final model
+*.joblib
+!tuned_predictive_maintenance_model.joblib
+
+# streamlit secrets
+.streamlit/config.toml
